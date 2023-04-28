@@ -235,14 +235,5 @@ handlePlayerControls() {
     player.update();
   }
 }
-showRank() {
-  swal({
-    title: `¡Impresionante!${"\n"}Posición${"\n"}${player.rank}`,
-    text: "Cruzaste la línea de meta con éxito",
-    imageUrl:
-      "https://raw.githubusercontent.com/vishalgaddam873/p5-multiplayer-car-race-game/master/assets/cup.png",
-    imageSize: "100x100",
-    confirmButtonText: "Ok"
-  });
-}
+
 }
